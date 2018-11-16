@@ -1,0 +1,25 @@
+[debug] [2018-10-15T08:25:20.706Z] ----------------------------------------------------------------------
+[debug] [2018-10-15T08:25:20.711Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-15T08:25:20.711Z] CLI Version:   5.0.1
+[debug] [2018-10-15T08:25:20.711Z] Platform:      win32
+[debug] [2018-10-15T08:25:20.711Z] Node Version:  v8.12.0
+[debug] [2018-10-15T08:25:20.713Z] Time:          Mon Oct 15 2018 17:25:20 GMT+0900 (대한민국 표준시)
+[debug] [2018-10-15T08:25:20.713Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-15T08:25:20.739Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-15T08:25:20.740Z] > authorizing via signed-in user
+[debug] [2018-10-15T08:25:20.740Z] [iam] checking project jangyh0722-weather for permissions ["firebase.projects.get"]
+[debug] [2018-10-15T08:25:20.745Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/jangyh0722-weather:testIamPermissions  
+
+[debug] [2018-10-15T08:25:22.025Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-15T08:25:22.035Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/jangyh0722-weather  
+ 
+[debug] [2018-10-15T08:25:23.184Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\fbroot\weather'...
+[info] 
+[debug] [2018-10-15T08:25:23.191Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/192509688199/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-15T08:25:23.796Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000

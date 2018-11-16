@@ -1,0 +1,10 @@
+a{text-decoration: none; color:#666666;}
+ul, li, p, h1, h2, h3, h4, h5, h6, div{list-style: none; margin:0; padding:0;}
+html, body{background-color: #ffffff; color:#666666;}
+.clear{clear: both;}
+.clear:after {clear:both; content:""; display: block;}
+
+header{width:1200px; margin:auto;}
+.navi{width:100%; background-color: grey;}
+.navs > li {cursor: pointer; background-color: #999; width:10%; text-align: center; }
+.navs ul{background-color: #ccc; display: none;}

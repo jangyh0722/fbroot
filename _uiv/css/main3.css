@@ -1,0 +1,22 @@
+a{text-decoration: none; color:#666666;}
+ul, li, p, h1, h2, h3, h4, h5, h6, div{list-style: none; margin:0; padding:0;}
+html, body{background-color: #ffffff; color:#666666;}
+.clear{clear: both;}
+.clear:after {clear:both; content:""; display: block;}
+
+
+header{position:relative; width:100%;}
+.navi{margin:2% auto 0; background-color: #999; overflow: hidden; }
+.logo{float: left; margin:1%;}
+.menu{float: right; width:78%; text-align: right; }
+.menu .navs > li{display: inline-block; padding:53px 10% 53px 0; }
+.navs_2{ position:absolute; top:127px; left: 0;  z-index: 1; background-color: rgba(0,0,0,0.3); width:inherit; text-align: right;display: none;}
+.navs_2 > ul{display: inline-block; width:12%;padding-right:2%;}
+.navs_2 > ul li{line-height: 50px; }
+.banner {width:1000px; height:400px; margin:auto;}
+.banner .ban_roll{width:1000px;position: absolute;top:0; left:0; }
+.banner .ban_roll > img{position: absolute; top:127px; left: 0; margin:auto 100px; }
+.banner .ban_roll > img:nth-child(2){left: 1000px;}
+.banner .ban_roll > img:nth-child(3){left: 2000px;}
+.banner .ban_roll > img:nth-child(4){left: 3000px;}
+.banner .ban_roll > img:nth-child(5){left: 4000px;}
