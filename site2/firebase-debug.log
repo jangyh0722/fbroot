@@ -1,0 +1,33 @@
+[debug] [2018-11-30T05:29:16.984Z] ----------------------------------------------------------------------
+[debug] [2018-11-30T05:29:17.000Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-11-30T05:29:17.000Z] CLI Version:   5.1.1
+[debug] [2018-11-30T05:29:17.000Z] Platform:      win32
+[debug] [2018-11-30T05:29:17.000Z] Node Version:  v8.12.0
+[debug] [2018-11-30T05:29:17.000Z] Time:          Fri Nov 30 2018 14:29:17 GMT+0900 (대한민국 표준시)
+[debug] [2018-11-30T05:29:17.000Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-30T05:29:17.031Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-30T05:29:17.031Z] > authorizing via signed-in user
+[debug] [2018-11-30T05:29:17.031Z] [iam] checking project jangyh0722-mall for permissions ["firebase.projects.get"]
+[debug] [2018-11-30T05:29:17.046Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/jangyh0722-mall:testIamPermissions  
+
+[debug] [2018-11-30T05:29:18.362Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-30T05:29:18.362Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/jangyh0722-mall  
+ 
+[debug] [2018-11-30T05:29:19.522Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\fbroot_깃 업로드181116\site2'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-11-30T05:29:28.724Z] Fetching environment
+[debug] [2018-11-30T05:29:28.735Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/383656927633:getServerAppConfig  
+ 
+[debug] [2018-11-30T05:29:28.737Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/383656927633/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-30T05:29:29.470Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-30T05:29:29.472Z] Starting @google-cloud/functions-emulator
+[debug] [2018-11-30T05:29:29.575Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2018-11-30T05:29:37.247Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
