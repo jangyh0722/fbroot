@@ -1,0 +1,21 @@
+[debug] [2018-11-30T05:07:24.646Z] ----------------------------------------------------------------------
+[debug] [2018-11-30T05:07:24.646Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-11-30T05:07:24.646Z] CLI Version:   5.1.1
+[debug] [2018-11-30T05:07:24.646Z] Platform:      win32
+[debug] [2018-11-30T05:07:24.646Z] Node Version:  v8.12.0
+[debug] [2018-11-30T05:07:24.646Z] Time:          Fri Nov 30 2018 14:07:24 GMT+0900 (대한민국 표준시)
+[debug] [2018-11-30T05:07:24.646Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-30T05:07:24.677Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-30T05:07:24.677Z] > authorizing via signed-in user
+[debug] [2018-11-30T05:07:24.677Z] [iam] checking project jangyh0722-mall for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]
+[debug] [2018-11-30T05:07:24.677Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-30T05:07:24.677Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-11-30T05:07:25.023Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-30T05:07:25.023Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/jangyh0722-mall:testIamPermissions  
+
+[debug] [2018-11-30T05:07:26.288Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-30T05:07:26.293Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/jangyh0722-mall  
+ 
+[debug] [2018-11-30T05:07:27.105Z] <<< HTTP RESPONSE 200
